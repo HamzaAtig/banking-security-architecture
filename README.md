@@ -820,5 +820,3 @@ OR ( index=ips action="blocked" threat="C2" )
 * **Enrichissement** : ajoute **GeoIP**, **Threat Intel**, **CMDB (criticité des actifs)**, **listes d’applications autorisées**.
 * **Suppression de bruit** : agrège par **src\_ip/user** et déduplique.
 * **Sortie** : envoie l’alerte au **SOAR** avec un **contexte complet** (logs bruts, timeline, host, user, IOC) pour l’automatisation.
-
-Si tu me dis quel SIEM tu utilises (Splunk, QRadar, Sentinel, Elastic), je te fournis la **syntaxe finale prête à coller** avec les bons noms d’index/sources de ton contexte.
